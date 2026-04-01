@@ -3785,6 +3785,12 @@
 		(uuid "7715cea0-6693-406b-97fc-dd82a45f2e0b")
 	)
 	(junction
+		(at 59.69 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77ae12a9-48e7-49fc-bfff-8f6c787bd47e")
+	)
+	(junction
 		(at 81.28 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3982,6 +3988,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 158.75) (xy 59.69 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370d53e1-054c-466b-a44d-be7a8daa2c1b")
+	)
+	(wire
+		(pts
 			(xy 154.94 50.8) (xy 154.94 54.61)
 		)
 		(stroke
@@ -4079,6 +4095,16 @@
 			(type default)
 		)
 		(uuid "553882b4-2a28-4970-8179-2be9db774843")
+	)
+	(wire
+		(pts
+			(xy 72.39 162.56) (xy 72.39 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58899bc6-09ef-4b16-b147-5e17557a5dbe")
 	)
 	(wire
 		(pts
@@ -4262,6 +4288,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 162.56) (xy 59.69 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5331228-d9ca-4400-ab6e-ccaeec30b16d")
+	)
+	(wire
+		(pts
 			(xy 81.28 20.32) (xy 81.28 25.4)
 		)
 		(stroke
@@ -4402,6 +4438,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 151.13) (xy 59.69 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79be35b-4acc-4b5e-b881-1d7cad6d9d5a")
+	)
+	(wire
+		(pts
 			(xy 101.6 20.32) (xy 101.6 39.37)
 		)
 		(stroke
@@ -4409,6 +4455,16 @@
 			(type default)
 		)
 		(uuid "d95bf4f1-3c50-4ee2-8322-f3e9ebcc3a18")
+	)
+	(wire
+		(pts
+			(xy 59.69 162.56) (xy 62.23 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab0019a-9125-4d38-9cb2-729c2281cace")
 	)
 	(wire
 		(pts
@@ -4449,6 +4505,16 @@
 			(justify left bottom)
 		)
 		(uuid "11136f4e-ab35-4d09-a0ea-ccaeaeb08ce5")
+	)
+	(label "UP"
+		(at 53.34 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30f3e80f-1e1b-4cf3-a07d-8b3e725304fe")
 	)
 	(label "DN"
 		(at 185.42 90.17 0)
@@ -5246,8 +5312,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 82.55 162.56 0)
+		(lib_id "Device:R_Small")
+		(at 59.69 156.21 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5255,30 +5322,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "398160d0-9ecc-4223-b888-8107649fd431")
-		(property "Reference" "SW2"
-			(at 82.55 154.94 0)
+		(uuid "39540281-372b-4932-860e-80f4115d288a")
+		(property "Reference" "R8"
+			(at 57.15 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 57.15 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 82.55 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
-			(at 82.55 157.48 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 59.69 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5289,7 +5357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 157.48 0)
+			(at 59.69 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5299,8 +5367,8 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 82.55 162.56 0)
+		(property "Description" "Resistor, small symbol"
+			(at 59.69 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5311,15 +5379,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "770c9422-b46c-409c-8a45-5170306558bf")
+			(uuid "756be011-097e-49e0-a843-f4a961dc047d")
 		)
 		(pin "2"
-			(uuid "7c5f5630-4da5-438a-9973-82a196ab7800")
+			(uuid "02634482-e3fe-49de-8f41-99cd205225e8")
 		)
 		(instances
 			(project "F411 Clock"
 				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
-					(reference "SW2")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5398,86 +5466,6 @@
 			(project "F411 Clock"
 				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 115.57 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41e3aead-93ef-4c73-aae3-b6a3862a119a")
-		(property "Reference" "SW4"
-			(at 115.57 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 115.57 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
-			(at 115.57 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 115.57 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99860f47-6b5c-4bec-b282-e40a69df4874")
-		)
-		(pin "2"
-			(uuid "633c9477-0966-406b-9ce0-209f3b5cba7c")
-		)
-		(instances
-			(project "F411 Clock"
-				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -6725,6 +6713,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 72.39 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c816f3f1-760c-4c38-a210-2c6a9e1200c2")
+		(property "Reference" "#PWR015"
+			(at 72.39 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1605705e-14fe-467c-b065-a2ad3127f41a")
+		)
+		(instances
+			(project "F411 Clock"
+				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32F4:STM32F411CCUx")
 		(at 160.02 97.79 0)
 		(unit 1)
@@ -7271,86 +7337,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 99.06 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f040c805-d22a-4f50-8904-0557885a0cb1")
-		(property "Reference" "SW3"
-			(at 99.06 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 99.06 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
-			(at 99.06 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 99.06 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d07f2a7d-114a-4954-81cf-3db696cf4054")
-		)
-		(pin "2"
-			(uuid "69c5c1ed-f3bc-4edb-9238-4db9bbd73b35")
-		)
-		(instances
-			(project "F411 Clock"
-				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 20.32 83.82 0)
 		(unit 1)
@@ -7423,6 +7409,84 @@
 			(project "F411 Clock"
 				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 59.69 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8b9fd46-bac2-4d43-a032-3df085f1eebb")
+		(property "Reference" "#PWR014"
+			(at 59.69 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 59.69 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 59.69 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af72eab0-2fb7-4899-9cdc-9a4da679a777")
+		)
+		(instances
+			(project "F411 Clock"
+				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
