@@ -3446,12 +3446,6 @@
 		(uuid "2bc3dbdf-5852-4f03-9d98-cdd825c90976")
 	)
 	(junction
-		(at 161.29 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44aa274f-c958-4518-b5fb-bca4078f31cb")
-	)
-	(junction
 		(at 91.44 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3492,6 +3486,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ce9f992-b84e-486b-b971-5059c3654484")
+	)
+	(junction
+		(at 161.29 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e415895a-4c0f-431e-9895-c9aa24ab26a2")
 	)
 	(no_connect
 		(at 43.18 67.31)
@@ -3793,7 +3793,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 143.51) (xy 161.29 147.32)
+			(xy 161.29 143.51) (xy 161.29 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4105,7 +4105,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 147.32 0)
+		(at 161.29 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4116,7 +4116,7 @@
 		(fields_autoplaced yes)
 		(uuid "06603eb1-fb8c-411a-ae35-9a1a5ab369fe")
 		(property "Reference" "#PWR06"
-			(at 161.29 153.67 0)
+			(at 161.29 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4127,7 +4127,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 152.4 0)
+			(at 161.29 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4137,7 +4137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 147.32 0)
+			(at 161.29 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4148,7 +4148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 147.32 0)
+			(at 161.29 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4159,7 +4159,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 147.32 0)
+			(at 161.29 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
