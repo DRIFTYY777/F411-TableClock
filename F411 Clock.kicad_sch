@@ -5213,7 +5213,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 115.57) (xy 38.1 121.92)
+			(xy 49.53 115.57) (xy 49.53 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5473,7 +5473,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 129.54) (xy 38.1 135.89)
+			(xy 49.53 129.54) (xy 49.53 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7460,7 +7460,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 38.1 127 0)
+		(at 49.53 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7471,7 +7471,7 @@
 		(fields_autoplaced yes)
 		(uuid "7635dc4c-fd2c-438e-826d-70a26d078205")
 		(property "Reference" "BT2"
-			(at 41.91 123.8884 0)
+			(at 53.34 123.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7482,7 +7482,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 41.91 126.4284 0)
+			(at 53.34 126.4284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7493,7 +7493,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
-			(at 38.1 125.476 90)
+			(at 49.53 125.476 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7504,7 +7504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 125.476 90)
+			(at 49.53 125.476 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7515,7 +7515,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 38.1 127 0)
+			(at 49.53 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7526,7 +7526,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 38.1 127 0)
+			(at 49.53 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7537,7 +7537,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 38.1 127 0)
+			(at 49.53 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7548,7 +7548,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 38.1 127 0)
+			(at 49.53 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8237,7 +8237,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 38.1 115.57 0)
+		(at 49.53 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8248,7 +8248,7 @@
 		(fields_autoplaced yes)
 		(uuid "9983134f-9b68-4994-a1aa-cfded144b9f0")
 		(property "Reference" "#PWR029"
-			(at 38.1 119.38 0)
+			(at 49.53 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8259,7 +8259,7 @@
 			)
 		)
 		(property "Value" "+BATT_2"
-			(at 38.1 110.49 0)
+			(at 49.53 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8269,7 +8269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 115.57 0)
+			(at 49.53 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8280,7 +8280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 115.57 0)
+			(at 49.53 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8291,7 +8291,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 38.1 115.57 0)
+			(at 49.53 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8873,7 +8873,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 135.89 0)
+		(at 49.53 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8884,7 +8884,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbedbc17-e8e3-4251-9dc8-7f190e1fa61a")
 		(property "Reference" "#PWR030"
-			(at 38.1 142.24 0)
+			(at 49.53 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8895,7 +8895,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 140.97 0)
+			(at 49.53 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8905,7 +8905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 135.89 0)
+			(at 49.53 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8916,7 +8916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 135.89 0)
+			(at 49.53 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8927,7 +8927,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 135.89 0)
+			(at 49.53 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
