@@ -3039,6 +3039,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -3446,6 +3585,12 @@
 		(uuid "2bc3dbdf-5852-4f03-9d98-cdd825c90976")
 	)
 	(junction
+		(at 160.02 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "309cf8a5-f8e9-4fc0-81cc-ac032067627d")
+	)
+	(junction
 		(at 91.44 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3503,6 +3648,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 48.26) (xy 160.02 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00055750-8af8-41a5-91fb-ab9958b33828")
+	)
+	(wire
+		(pts
+			(xy 137.16 58.42) (xy 137.16 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01c5c242-9cd7-4a13-ad2b-c9c49b4a8379")
+	)
+	(wire
+		(pts
 			(xy 45.72 57.15) (xy 45.72 58.42)
 		)
 		(stroke
@@ -3523,6 +3688,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 62.23) (xy 142.24 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b05b1ab-e235-495b-b341-a242013b3b65")
+	)
+	(wire
+		(pts
 			(xy 43.18 44.45) (xy 54.61 44.45)
 		)
 		(stroke
@@ -3530,6 +3705,16 @@
 			(type default)
 		)
 		(uuid "1e34c520-9409-4c68-a063-2135a2dbf165")
+	)
+	(wire
+		(pts
+			(xy 160.02 50.8) (xy 160.02 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e6ace52-1033-4870-a3d7-d91bbc248119")
 	)
 	(wire
 		(pts
@@ -3613,6 +3798,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 54.61) (xy 162.56 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366e9ed5-f69f-4714-9bef-c98598ec4df7")
+	)
+	(wire
+		(pts
 			(xy 43.18 39.37) (xy 59.69 39.37)
 		)
 		(stroke
@@ -3620,6 +3815,16 @@
 			(type default)
 		)
 		(uuid "37035ba6-7dad-4f49-a988-8bf6ccc342e8")
+	)
+	(wire
+		(pts
+			(xy 160.02 50.8) (xy 157.48 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9ec1bc-a027-41ca-ac63-4b82ce0950b8")
 	)
 	(wire
 		(pts
@@ -3803,6 +4008,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 48.26) (xy 137.16 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea82b88-b7a8-43cc-b82f-f140f34e9a84")
+	)
+	(wire
+		(pts
 			(xy 45.72 53.34) (xy 45.72 54.61)
 		)
 		(stroke
@@ -3913,6 +4128,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 50.8) (xy 157.48 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b964d226-e75a-4132-bb66-2b86398a9bcc")
+	)
+	(wire
+		(pts
 			(xy 63.5 58.42) (xy 67.31 58.42)
 		)
 		(stroke
@@ -3980,6 +4205,16 @@
 			(type default)
 		)
 		(uuid "de497b17-31c2-4d55-b2a2-40f6e72ade5b")
+	)
+	(wire
+		(pts
+			(xy 162.56 50.8) (xy 160.02 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd395d82-9d46-4f93-868a-5e8ee5f3dce7")
 	)
 	(label "DP"
 		(at 185.42 92.71 0)
@@ -4703,6 +4938,84 @@
 			(project "F411 Clock"
 				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 137.16 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50829ff4-30fb-4654-b677-8e0aca0d1996")
+		(property "Reference" "#PWR010"
+			(at 137.16 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 137.16 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 137.16 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "716d8961-b774-4b07-9056-9f3b9d4c1047")
+		)
+		(instances
+			(project "F411 Clock"
+				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5585,6 +5898,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 137.16 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b89add15-2774-4f5c-b115-a0aa33260fab")
+		(property "Reference" "R7"
+			(at 139.7 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 139.7 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 137.16 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 137.16 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c58c4bc6-8806-4221-880c-5a66d2c05aaf")
+		)
+		(pin "2"
+			(uuid "4a86143b-41a5-4cf1-8922-49b3e6cfa163")
+		)
+		(instances
+			(project "F411 Clock"
+				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Display_Character:WC1602A")
 		(at 214.63 68.58 0)
 		(unit 1)
@@ -6172,6 +6567,84 @@
 			(project "F411 Clock"
 				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 160.02 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8d9122d-8656-4063-9ddb-3963534f7711")
+		(property "Reference" "#PWR012"
+			(at 160.02 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 160.02 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 160.02 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ca3edc8-63c1-46b9-a671-bfa8497f2ce4")
+		)
+		(instances
+			(project "F411 Clock"
+				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
