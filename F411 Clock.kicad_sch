@@ -10176,7 +10176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_1042_1x18650"
+		(property "Footprint" "Battery:BatteryHolder_MPD_BK-18650-PC2"
 			(at 29.21 124.206 90)
 			(hide yes)
 			(show_name no)
