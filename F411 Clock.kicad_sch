@@ -4540,16 +4540,40 @@
 		(uuid "7ce9f992-b84e-486b-b971-5059c3654484")
 	)
 	(junction
+		(at 58.42 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89ce7f4f-991d-4b0c-823c-1525129799e1")
+	)
+	(junction
 		(at 101.6 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b69b7c6-d11e-4235-9e79-22f546135aca")
 	)
 	(junction
+		(at 29.21 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abe89ff4-7f54-4f27-9b71-e24ae4154a44")
+	)
+	(junction
 		(at 49.53 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb572970-28e9-4047-bbdc-9870d5041911")
+	)
+	(junction
+		(at 58.42 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ced5bf17-9694-49cf-9bd8-2f914f0b9ecb")
+	)
+	(junction
+		(at 29.21 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e378a60f-84bd-444f-a7b7-c898389c0cd2")
 	)
 	(junction
 		(at 161.29 143.51)
@@ -4743,6 +4767,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 130.81) (xy 58.42 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9f4f76-1bf7-45f2-b2de-12965dfc721a")
+	)
+	(wire
+		(pts
 			(xy 95.25 184.15) (xy 101.6 184.15)
 		)
 		(stroke
@@ -4830,6 +4864,16 @@
 			(type default)
 		)
 		(uuid "3c4639a4-20a6-4743-81c8-7a74d2d26693")
+	)
+	(wire
+		(pts
+			(xy 58.42 130.81) (xy 58.42 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e25d1ba-dbfa-47be-8a3c-c572743c316e")
 	)
 	(wire
 		(pts
@@ -4943,6 +4987,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 123.19) (xy 53.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e09af5-9e81-4d36-8a90-a26ce345ed6f")
+	)
+	(wire
+		(pts
 			(xy 50.8 20.32) (xy 50.8 17.78)
 		)
 		(stroke
@@ -5053,6 +5107,26 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 130.81) (xy 29.21 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74149979-3ccc-4789-9dd4-bb70bfd6c66f")
+	)
+	(wire
+		(pts
+			(xy 53.34 128.27) (xy 53.34 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af2aab7-38db-47fc-a184-11c6bb4cbc8f")
+	)
+	(wire
+		(pts
 			(xy 62.23 184.15) (xy 62.23 186.69)
 		)
 		(stroke
@@ -5100,6 +5174,16 @@
 			(type default)
 		)
 		(uuid "86c0771b-8c9a-473a-a992-aff006d799bb")
+	)
+	(wire
+		(pts
+			(xy 35.56 120.65) (xy 29.21 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b877dec-c646-4e87-9626-5cfa51e42234")
 	)
 	(wire
 		(pts
@@ -5183,6 +5267,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 123.19) (xy 35.56 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcff9b5-5864-4df4-b3ca-6896bd50de0a")
+	)
+	(wire
+		(pts
 			(xy 245.11 72.39) (xy 252.73 72.39)
 		)
 		(stroke
@@ -5213,7 +5307,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 115.57) (xy 49.53 121.92)
+			(xy 58.42 115.57) (xy 58.42 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5373,6 +5467,26 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 128.27) (xy 35.56 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce936bc3-13cb-4e6a-ba5e-94d262b7d77d")
+	)
+	(wire
+		(pts
+			(xy 58.42 120.65) (xy 58.42 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7fe18a-3746-4d32-a6cb-a9c7a8a5cc0a")
+	)
+	(wire
+		(pts
 			(xy 72.39 39.37) (xy 81.28 39.37)
 		)
 		(stroke
@@ -5473,7 +5587,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 129.54) (xy 49.53 135.89)
+			(xy 53.34 120.65) (xy 58.42 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e262b3f8-a3c8-4fe0-96d3-ea225c36e32e")
+	)
+	(wire
+		(pts
+			(xy 58.42 129.54) (xy 58.42 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7460,7 +7584,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 49.53 127 0)
+		(at 58.42 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7471,7 +7595,7 @@
 		(fields_autoplaced yes)
 		(uuid "7635dc4c-fd2c-438e-826d-70a26d078205")
 		(property "Reference" "BT2"
-			(at 53.34 123.8884 0)
+			(at 62.23 123.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7482,7 +7606,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 53.34 126.4284 0)
+			(at 62.23 126.4284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7493,7 +7617,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
-			(at 49.53 125.476 90)
+			(at 58.42 125.476 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7504,7 +7628,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 125.476 90)
+			(at 58.42 125.476 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7515,7 +7639,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 49.53 127 0)
+			(at 58.42 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7526,7 +7650,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 49.53 127 0)
+			(at 58.42 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7537,7 +7661,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 49.53 127 0)
+			(at 58.42 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7548,7 +7672,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 49.53 127 0)
+			(at 58.42 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8237,7 +8361,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 49.53 115.57 0)
+		(at 58.42 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8248,7 +8372,7 @@
 		(fields_autoplaced yes)
 		(uuid "9983134f-9b68-4994-a1aa-cfded144b9f0")
 		(property "Reference" "#PWR029"
-			(at 49.53 119.38 0)
+			(at 58.42 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8259,7 +8383,7 @@
 			)
 		)
 		(property "Value" "+BATT_2"
-			(at 49.53 110.49 0)
+			(at 58.42 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8269,7 +8393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 115.57 0)
+			(at 58.42 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8280,7 +8404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 115.57 0)
+			(at 58.42 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8291,7 +8415,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 49.53 115.57 0)
+			(at 58.42 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8548,6 +8672,88 @@
 			(project "F411 Clock"
 				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8f78baf-02db-4bdd-af1b-e19ba01f7584")
+		(property "Reference" "C5"
+			(at 38.1 124.4662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uf"
+			(at 38.1 127.0062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 35.56 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 35.56 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1155a7f2-695b-410a-a0ce-b0d4c92b5fa2")
+		)
+		(pin "1"
+			(uuid "049f88e4-72e9-4c2e-ab2e-b1aa477abe47")
+		)
+		(instances
+			(project "F411 Clock"
+				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8873,7 +9079,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 135.89 0)
+		(at 58.42 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8884,7 +9090,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbedbc17-e8e3-4251-9dc8-7f190e1fa61a")
 		(property "Reference" "#PWR030"
-			(at 49.53 142.24 0)
+			(at 58.42 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8895,7 +9101,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 140.97 0)
+			(at 58.42 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8905,7 +9111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 135.89 0)
+			(at 58.42 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8916,7 +9122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 135.89 0)
+			(at 58.42 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8927,7 +9133,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 135.89 0)
+			(at 58.42 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9463,6 +9669,88 @@
 			(project "F411 Clock"
 				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 53.34 125.73 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d674bd1d-8e76-4548-8677-04486e6b9193")
+		(property "Reference" "C4"
+			(at 50.8 124.4662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uf"
+			(at 50.8 127.0062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 53.34 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 53.34 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1c417378-92d5-4703-a7fb-6780bdcfeeaa")
+		)
+		(pin "1"
+			(uuid "08e62301-4c5f-4a66-ae55-655c30911a69")
+		)
+		(instances
+			(project "F411 Clock"
+				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
+					(reference "C4")
 					(unit 1)
 				)
 			)
