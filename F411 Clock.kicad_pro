@@ -419,7 +419,12 @@
     "used_designators": "DS1,U1",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "6121eee1-efe8-450c-8a4d-3ee76e069735",
+      "Root"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
