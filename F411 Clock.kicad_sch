@@ -4339,7 +4339,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 72.39) (xy 252.73 78.74)
+			(xy 252.73 72.39) (xy 252.73 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4729,7 +4729,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 88.9) (xy 252.73 101.6)
+			(xy 252.73 90.17) (xy 252.73 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7322,7 +7322,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC547")
-		(at 255.27 83.82 0)
+		(at 255.27 85.09 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7333,7 +7333,7 @@
 		(dnp no)
 		(uuid "98e86a51-631d-41c1-9c85-f1e2c44e5bb4")
 		(property "Reference" "Q2"
-			(at 250.19 82.5499 0)
+			(at 250.19 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7344,7 +7344,7 @@
 			)
 		)
 		(property "Value" "BC547"
-			(at 250.19 85.0899 0)
+			(at 250.19 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7355,7 +7355,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide"
-			(at 250.19 85.725 0)
+			(at 250.19 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7368,7 +7368,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 255.27 83.82 0)
+			(at 255.27 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7380,7 +7380,7 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
-			(at 255.27 83.82 0)
+			(at 255.27 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7391,7 +7391,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 255.27 83.82 0)
+			(at 255.27 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7402,7 +7402,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 255.27 83.82 0)
+			(at 255.27 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
