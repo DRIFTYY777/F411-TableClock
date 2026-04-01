@@ -5213,6 +5213,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 115.57) (xy 38.1 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a742c339-8a7a-49b5-acc9-998b4a0ab9e4")
+	)
+	(wire
+		(pts
 			(xy 43.18 54.61) (xy 45.72 54.61)
 		)
 		(stroke
@@ -5460,6 +5470,16 @@
 			(type default)
 		)
 		(uuid "de497b17-31c2-4d55-b2a2-40f6e72ade5b")
+	)
+	(wire
+		(pts
+			(xy 38.1 129.54) (xy 38.1 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98ddb25-0f47-46ce-9001-b19f727f9bcc")
 	)
 	(wire
 		(pts
@@ -7440,7 +7460,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 43.18 137.16 0)
+		(at 38.1 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7451,7 +7471,7 @@
 		(fields_autoplaced yes)
 		(uuid "7635dc4c-fd2c-438e-826d-70a26d078205")
 		(property "Reference" "BT2"
-			(at 46.99 134.0484 0)
+			(at 41.91 123.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7462,7 +7482,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 46.99 136.5884 0)
+			(at 41.91 126.4284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7473,7 +7493,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
-			(at 43.18 135.636 90)
+			(at 38.1 125.476 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7484,7 +7504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 135.636 90)
+			(at 38.1 125.476 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7495,7 +7515,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 43.18 137.16 0)
+			(at 38.1 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7506,7 +7526,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 43.18 137.16 0)
+			(at 38.1 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7517,7 +7537,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 43.18 137.16 0)
+			(at 38.1 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7528,7 +7548,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 43.18 137.16 0)
+			(at 38.1 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8216,6 +8236,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 38.1 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9983134f-9b68-4994-a1aa-cfded144b9f0")
+		(property "Reference" "#PWR029"
+			(at 38.1 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT_2"
+			(at 38.1 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 38.1 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8bc6ef5-f4ba-4800-a208-0da338e6bcc1")
+		)
+		(instances
+			(project "F411 Clock"
+				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 81.28 41.91 0)
 		(unit 1)
@@ -8768,6 +8866,84 @@
 			(project "F411 Clock"
 				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbedbc17-e8e3-4251-9dc8-7f190e1fa61a")
+		(property "Reference" "#PWR030"
+			(at 38.1 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fa83376-9ed5-4e8d-bde5-00a5e596c9c5")
+		)
+		(instances
+			(project "F411 Clock"
+				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9681,6 +9857,7 @@
 	(symbol
 		(lib_id "Device:Battery")
 		(at 29.21 125.73 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9688,10 +9865,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e5472146-7a5e-45ad-a3b1-beda7e5a4f1e")
 		(property "Reference" "BT1"
-			(at 33.02 123.8884 0)
+			(at 25.4 123.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9702,7 +9878,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 33.02 126.4284 0)
+			(at 25.4 126.4284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
