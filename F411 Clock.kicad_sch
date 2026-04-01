@@ -3446,6 +3446,12 @@
 		(uuid "2bc3dbdf-5852-4f03-9d98-cdd825c90976")
 	)
 	(junction
+		(at 161.29 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44aa274f-c958-4518-b5fb-bca4078f31cb")
+	)
+	(junction
 		(at 91.44 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3507,6 +3513,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 143.51) (xy 161.29 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "144d71e7-6ae2-4a6c-8993-4b3b6d143efe")
+	)
+	(wire
+		(pts
 			(xy 43.18 44.45) (xy 54.61 44.45)
 		)
 		(stroke
@@ -3514,6 +3530,16 @@
 			(type default)
 		)
 		(uuid "1e34c520-9409-4c68-a063-2135a2dbf165")
+	)
+	(wire
+		(pts
+			(xy 162.56 138.43) (xy 162.56 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207bc192-3e70-442f-ae61-a7f475442a89")
 	)
 	(wire
 		(pts
@@ -3607,6 +3633,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 67.31) (xy 124.46 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a57b8a-b8df-4dc3-af9c-b1bb22393b63")
+	)
+	(wire
+		(pts
 			(xy 20.32 77.47) (xy 20.32 83.82)
 		)
 		(stroke
@@ -3654,6 +3690,16 @@
 			(type default)
 		)
 		(uuid "54f54c18-8594-4407-939a-7c529cac7168")
+	)
+	(wire
+		(pts
+			(xy 124.46 67.31) (xy 124.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "553882b4-2a28-4970-8179-2be9db774843")
 	)
 	(wire
 		(pts
@@ -3707,6 +3753,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 138.43) (xy 160.02 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "739e056e-7c30-4ed4-8c24-13b80425f484")
+	)
+	(wire
+		(pts
 			(xy 177.8 92.71) (xy 185.42 92.71)
 		)
 		(stroke
@@ -3734,6 +3790,16 @@
 			(type default)
 		)
 		(uuid "86c0771b-8c9a-473a-a992-aff006d799bb")
+	)
+	(wire
+		(pts
+			(xy 161.29 143.51) (xy 161.29 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b91919f-ebb6-48ef-99b1-d830d7e8716a")
 	)
 	(wire
 		(pts
@@ -3784,6 +3850,16 @@
 			(type default)
 		)
 		(uuid "a7b632e6-1437-4ccc-98cf-48bfa280dc4e")
+	)
+	(wire
+		(pts
+			(xy 124.46 76.2) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd5ddae-d993-447a-96cf-51391c347c26")
 	)
 	(wire
 		(pts
@@ -3894,6 +3970,16 @@
 			(type default)
 		)
 		(uuid "dcef644e-8341-4c40-b8de-3dcc11b03aab")
+	)
+	(wire
+		(pts
+			(xy 162.56 143.51) (xy 161.29 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de497b17-31c2-4d55-b2a2-40f6e72ade5b")
 	)
 	(label "DP"
 		(at 185.42 92.71 0)
@@ -4012,6 +4098,84 @@
 			(project "F411 Clock"
 				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06603eb1-fb8c-411a-ae35-9a1a5ab369fe")
+		(property "Reference" "#PWR06"
+			(at 161.29 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b1bd157-39e3-489c-a332-dc362863ec8f")
+		)
+		(instances
+			(project "F411 Clock"
+				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4539,6 +4703,84 @@
 			(project "F411 Clock"
 				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a1a21f9-389d-4b67-a714-8bb68bc9509a")
+		(property "Reference" "#PWR05"
+			(at 124.46 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7d70f17-aedf-4001-844b-1d27c2923e28")
+		)
+		(instances
+			(project "F411 Clock"
+				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5766,6 +6008,88 @@
 			(project "F411 Clock"
 				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 124.46 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4a1fb3f-bd9d-4758-b185-853464a37c0c")
+		(property "Reference" "R6"
+			(at 127 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 127 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 124.46 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 124.46 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c9fcc9d-7b3c-4c0f-a502-9ea90f1962c2")
+		)
+		(pin "2"
+			(uuid "528fcf29-7368-47ef-b42d-33af5e73e442")
+		)
+		(instances
+			(project "F411 Clock"
+				(path "/6121eee1-efe8-450c-8a4d-3ee76e069735"
+					(reference "R6")
 					(unit 1)
 				)
 			)
