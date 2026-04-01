@@ -4216,7 +4216,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 50.8) (xy 222.25 58.42)
+			(xy 234.95 49.53) (xy 234.95 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4988,7 +4988,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 222.25 50.8 0)
+		(at 234.95 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4999,7 +4999,7 @@
 		(fields_autoplaced yes)
 		(uuid "095568ab-280d-4cb3-996e-e9b633d9e1dc")
 		(property "Reference" "#PWR025"
-			(at 222.25 54.61 0)
+			(at 234.95 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5010,7 +5010,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 222.25 45.72 0)
+			(at 234.95 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5020,7 +5020,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 50.8 0)
+			(at 234.95 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5031,7 +5031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 50.8 0)
+			(at 234.95 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5042,7 +5042,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 222.25 50.8 0)
+			(at 234.95 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7421,7 +7421,7 @@
 	)
 	(symbol
 		(lib_id "Display_Character:WC1602A")
-		(at 222.25 78.74 0)
+		(at 234.95 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7432,7 +7432,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0acd341-5f3a-4437-b642-71e1d8bd4a7d")
 		(property "Reference" "DS1"
-			(at 224.3933 55.88 0)
+			(at 237.0933 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7443,7 +7443,7 @@
 			)
 		)
 		(property "Value" "WC1602A"
-			(at 224.3933 58.42 0)
+			(at 237.0933 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7454,7 +7454,7 @@
 			)
 		)
 		(property "Footprint" "Display:WC1602A"
-			(at 222.25 101.6 0)
+			(at 234.95 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7466,7 +7466,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf"
-			(at 240.03 78.74 0)
+			(at 252.73 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7477,7 +7477,7 @@
 			)
 		)
 		(property "Description" "LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD"
-			(at 222.25 78.74 0)
+			(at 234.95 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
