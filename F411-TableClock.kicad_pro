@@ -620,6 +620,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "Table Clock",
     "plot_directory": "",
     "reuse_designators": true,
@@ -632,7 +640,7 @@
         "uuid": "68e980b3-284e-4b2e-ba50-4cac96945a5a"
       }
     ],
-    "used_designators": "U3-4,#PWR42-43,C13",
+    "used_designators": "R13,J3,J5,U3,#PWR43,#PWR51",
     "variants": []
   },
   "sheets": [
