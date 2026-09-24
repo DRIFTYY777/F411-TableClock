@@ -140,7 +140,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -628,7 +628,7 @@
       "model_mode": 4,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "Table Clock",
+    "page_layout_descr_file": "Table Clock V2",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -640,7 +640,7 @@
         "uuid": "68e980b3-284e-4b2e-ba50-4cac96945a5a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D2-3,#PWR56,#PWR60-63,Q3,Q5,BZ1,R18-21",
     "variants": []
   },
   "sheets": [
